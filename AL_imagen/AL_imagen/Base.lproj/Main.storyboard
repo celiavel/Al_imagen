@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad12_9rounded" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AL_imagen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chp-hd-SAL">
+                                <rect key="frame" x="1271" y="916" width="75" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="Cl3-Rg-udE"/>
+                                    <constraint firstAttribute="height" constant="68" id="ccm-sm-7xg"/>
+                                </constraints>
+                                <state key="normal" title="boton3" image="youtube.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwL-m4-gri">
+                                <rect key="frame" x="1164" y="921" width="87" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="87" id="lwH-x3-GLP"/>
+                                    <constraint firstAttribute="height" constant="63" id="qb2-yg-cgb"/>
+                                </constraints>
+                                <state key="normal" title="boton2" image="bank.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRt-4p-01w">
+                                <rect key="frame" x="1180" y="44" width="166" height="69"/>
+                                <color key="backgroundColor" red="0.071989573040000004" green="0.66666668650000005" blue="0.1723125932" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="166" id="Ill-MH-woY"/>
+                                    <constraint firstAttribute="height" constant="69" id="rTW-m7-KUk"/>
+                                </constraints>
+                                <state key="normal" title="boton1" image="download.png">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eRt-4p-01w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="AaA-8V-lRd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xwL-m4-gri" secondAttribute="bottom" constant="20" id="Nlg-yh-ww5"/>
+                            <constraint firstItem="chp-hd-SAL" firstAttribute="leading" secondItem="xwL-m4-gri" secondAttribute="trailing" constant="20" id="Paz-Un-ph1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="chp-hd-SAL" secondAttribute="bottom" constant="20" id="sMZ-Ul-80G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="chp-hd-SAL" secondAttribute="trailing" constant="20" id="wp2-7Y-sML"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eRt-4p-01w" secondAttribute="trailing" constant="20" id="zak-cx-HWU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bank.png" width="1600" height="1600"/>
+        <image name="download.png" width="400" height="148"/>
+        <image name="youtube.png" width="300" height="300"/>
+    </resources>
+</document>
